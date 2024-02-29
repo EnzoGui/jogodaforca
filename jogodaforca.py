@@ -51,7 +51,7 @@ while True:
             letras_acertadas += letra_insert
             
         palavra_formada = ''
-        for letra in palavra_secreta: #Para cada indice em palavra secreta, será feita a verificação se houve alguma letra acertada.
+        for letra in palavra_secreta: #Para cada indice em palavra secreta, será feita a verificação se o jogador inseriu a letra correta.
             if letra in letras_acertadas:
                 palavra_formada += letra
             else:
